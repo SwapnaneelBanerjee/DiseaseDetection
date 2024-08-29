@@ -88,7 +88,7 @@ if selected == 'Diabetes Prediction':
     st.success(diab_diagnosis)
 
 # Heart Disease Prediction Page
-if selected == 'Heart Disease Detection':
+if selected == 'Heart Disease Prediction':
 
     # page title
     st.title('Heart Disease Prediction using ML')
