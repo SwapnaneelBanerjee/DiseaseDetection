@@ -4,8 +4,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Set page configuration
-st.set_page_config(page_title="Health Assistant",
-                   layout="wide",
+st.set_page_config(page_title="Disease Predictor",
+                   layout="central",
                    page_icon="🧑‍⚕️")
 
     
