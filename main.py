@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 # Set page configuration
 st.set_page_config(page_title="Disease Predictor",
                    layout="wide",
-                   page_icon="🧑‍⚕️")
+                   page_icon="🩺")
 
     
 # getting the working directory of the main.py
@@ -27,6 +27,7 @@ with st.sidebar:
                            ['Diabetes Prediction',
                             'Heart Disease Prediction',
                             'Parkinsons Prediction'],
+                           'made by neel',
                            menu_icon='hospital-fill',
                            icons=['activity', 'heart', 'person'],
                            default_index=0)
